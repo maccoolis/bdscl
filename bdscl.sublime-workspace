@@ -1,0 +1,234 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"style"
+			],
+			[
+				"algin",
+				"align-items\tproperty"
+			],
+			[
+				"t",
+				"thin\tborder-top"
+			],
+			[
+				"bor",
+				"border-top\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"border",
+				"border-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install pacl",
+				"Package Control: Install Local Dependency"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Data/Work Projects/BDCSL/plugin/bdscl-tools",
+		"/C/Data/Work Projects/BDCSL/plugin/bdscl-tools/css",
+		"/C/Data/Work Projects/BDCSL/plugin/bdscl-tools/js"
+	],
+	"file_history":
+	[
+		"/C/Data/Work Projects/BDCSL/plugin/bdscl-tools/bdscl-tools.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/Data/Work Projects/BDCSL/plugin/bdscl-tools/js/bdscl-tools.js",
+		"/C/Data/Work Projects/BDCSL/plugin/bdscl-tools/css/bdscl_tools.css",
+		"//cp163174.hpdns.net@SSL@2078/DavWWWRoot/www/wp-content/plugins/bdscl-tools/css/bdscl_tools.css",
+		"//cp163174.hpdns.net@SSL@2078/DavWWWRoot/www/wp-content/plugins/bdscl-tools/js/jquery.twbsPagination.min.js",
+		"//cp163174.hpdns.net@SSL@2078/DavWWWRoot/www/wp-content/plugins/bdscl-tools/bdscl-tools.php",
+		"//cp163174.hpdns.net@SSL@2078/DavWWWRoot/www/wp-content/plugins/bdscl-tools/js/bdscl-tools.js",
+		"/C/Users/hills/Downloads/noname",
+		"/C/xampp/htdocs/bdscl/wp-content/plugins/bdscl-tools/bdscl-tools.php",
+		"/C/xampp/htdocs/bdscl/wp-content/themes/motif-child/page.php",
+		"/C/xampp/htdocs/bdscl/wp-content/themes/motif-child/functions.php",
+		"/C/xampp/htdocs/bdscl/wp-content/plugins/bdscl-tools/bdscl-tools-old.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\Data\\Work Projects\\BDCSL\\plugin\\bdscl-tools"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"widget",
+			"breaksby",
+			"split",
+			"displays the part",
+			"displays the particular results",
+			"getWeeklyFixturesbyDiv",
+			"mtab-weekfix",
+			"mtab-date",
+			"mtab",
+			"fixturesbyweek_display",
+			"getWeeklyFixturesbyDiv",
+			"button",
+			"getWeekSelect",
+			"getweekselect"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bdscl.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

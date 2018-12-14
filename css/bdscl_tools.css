@@ -1,0 +1,581 @@
+/* BDSCL tools stylesheet
+
+*/
+
+/* First some of the mtab (smaller table mods) to make presentation nicer */
+.mtab-weekresult, .mtab-weekfix, .mtab-pbreaks {
+    font-size: 85%;
+}
+
+.mtab-result, .mtab-date {
+	text-align:center;
+}
+ 
+.mtab-fixaway {
+	text-align:right;
+}
+
+.mtab-weekno {
+	text-align:left;
+}
+/* First some of the ftab (bigger table mods) to make presentation nicer */
+
+/* Changes to divisions to make the promotion and relegation obvious */
+.ftab-divtable tbody tr:first-child td {
+      background-color: #E2F9E3;
+    }
+
+.ftab-divtable tbody tr:nth-child(1) td {
+     border-bottom-style:double;
+     border-width: 4px;
+ }
+ .ftab-divtable tbody tr:nth-child(2) td {
+     background-color: #edf9ed;
+ }
+ .ftab-divtable tbody tr:nth-child(3) td {
+     background-color: #f2f9f2;
+ }
+  .ftab-divtable tbody tr:nth-last-child(3) td {
+     background-color: #ddd3d2;
+ }
+  .ftab-divtable tbody tr:nth-last-child(2) td {
+     background-color: #e0cecc;
+ }
+  .ftab-divtable tbody tr:nth-last-child(1) td {
+     background-color: #dd948d;
+ }
+
+.ftab-pts {
+	text-align:right;
+}
+
+.ftab-form img {
+	padding: 0px 1px 0px 0px;
+}
+
+/* Changes to player averages table */
+
+.ftab-paverages .ftab-average {
+	text-align:right;
+}
+.ftab-paverages .ftab-won, .ftab-paverages .ftab-lost, .ftab-paverages .ftab-played {
+	text-align:center;
+}
+
+/* Changes to player breaks table */
+
+.ftab-pbreaks .ftab-break {
+	text-align:right;
+}
+.ftab-pbreaks .ftab-date, .ftab-pbreaks .ftab-fixfull {
+	text-align:center;
+}
+
+/* Changes to player table on teams page*/
+
+.ftab-players .ftab-hperc, .ftab-players .ftab-aperc {
+	border-right-style:solid;
+	border-right-width: 1px;
+	border-right-color:#e6e6e6;
+	
+}
+
+/* Changes to team results table */
+
+.ftab-teams .ftab-fixopp, .ftab-teams .ftab-fixloc, .ftab-teams .ftab-fixres, .ftab-teams .ftab-fixdate {
+	text-align:center;
+}
+/* Colour the result cells if matches won draw or lost */
+
+.ftab-teams .game-lost {
+	background-color: #dd948d;
+}
+
+.ftab-teams .game-won {
+	background-color: #80DA80;
+}
+
+.ftab-teams .game-drew {
+	background-color: #EAE8E8;
+}
+
+.ftab-teams .game-unplayed {
+	background-color: #FFF;
+}
+
+/* Changes to player details table, frames and breaks */
+.ftab-home, .ftab-away, .ftab-combined, .ftab-hplayed, .ftab-hwon, .ftab-hlost, .ftab-hperc, .ftab-aplayed, .ftab-awon, .ftab-alost, .ftab-aperc, .ftab-tplayed, .ftab-twon, .ftab-tlost, .ftab-tperc{
+	text-align:center;
+}
+
+.ftab-hbreak, .ftab-b30, .ftab-b40, .ftab-b50, .ftab-b60, .ftab-b70, .ftab-b80, .ftab-b90, .ftab-b100, .ftab-b147 {
+	text-align:center;	
+}
+
+/* Changes to main player details table */
+.ftab-matches .ftab-hbreak, .ftab-matches .ftab-abreak {
+		text-align:center;	
+}
+
+/* Changes to team and player comps table */
+
+.ftab-teamtourno .ftab-result, .ftab-playertourno .ftab-result  {
+	text-align:center;		
+}
+/* Changes to the rankings table */
+
+.ftab-pranking .ftab-cpts, .ftab-pranking .ftab-bpts, .ftab-pranking .ftab-lpts , .ftab-pranking .ftab-tpts , .ftab-pranking .ftab-hcap {
+	text-align:center;		
+}
+
+.ftab-contact {
+	vertical-align: middle;
+}
+
+.ftab-sponsors .ftab-image {
+	text-align:right;
+	vertical-align:middle;
+}
+
+.ftab-imgtable .ftab-image {
+	vertical-align:middle;
+}
+/* Changes to widgets */
+
+#result_text, #fixture_text, #break_text {
+	background-color: #fff;
+}
+
+/* Tables with images in just modified slightly */
+
+.ftab-imgtable td {
+	border:none;
+}
+
+/* Changes to competitions nav table */
+.ftab-comps  {
+	font-size:13px;
+	position: absolute;
+    bottom: 0;
+    width:95%;
+}
+
+.ftab-comps td {
+	text-align:center;
+	border: none;
+    border-style:none;
+}
+.mtab-comps {
+	background-color:#fff;
+}
+
+.mtab-comps td {
+	font-size: 85%;
+    color: #ac0000;
+}
+
+.mtab-bpts {
+	text-align:right;
+}
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#AC0000;
+	border-radius:5px;
+	color:#fff;
+}
+
+.slideshow-window {
+	background-color: #083901 !important;
+	border:#083901 !important;
+}
+
+a:visited {
+	color:#083901;
+}
+/* Colours for the create fixtures page that match team pairs */
+
+.pair1 {
+	background-color:#FEBCBC;
+}
+
+.pair2 {
+	background-color:#D0DAFE;
+}
+
+.pair3 {
+	background-color:#F3D0FE;
+}
+
+.pair4 {
+	background-color:#FEE9D0;
+}
+
+.pair5 {
+	background-color:#FAFED0;
+}
+
+.pair6 {
+	background-color:#E5FED0;
+}
+
+.pair7 {
+	background-color:#D0FEE6;
+}
+
+.pair8 {
+	background-color:#D0FEFD;
+}
+
+
+/* These changes for the admin results screen to ensure formatted nicely */
+#homeplayer1-list, #homeplayer2-list, #homeplayer3-list, #homeplayer4-list  {
+    	line-height:35px;
+    	height: 35px;
+    	width: 220px;
+}
+#awayplayer1-list, #awayplayer2-list, #awayplayer3-list, #awayplayer4-list  {
+    	line-height:35px;
+    	height: 35px;
+    	width: 220px;
+}
+
+#htscore1, #htscore2, #htscore3, #htscore4, #atscore1, #atscore2, #atscore3, #atscore4 {
+	width:45px;
+	height:35px;
+	text-align:center;
+}
+
+#htbreak1, #htbreak2, #htbreak3, #htbreak4, #atbreak1, #atbreak2, #atbreak3, #atbreak4  {
+	width:70px;
+}
+
+#hts1, #hts2, #hts3, #hts4 {
+	width:30px;
+	height:35px;
+	text-align:center;
+}
+
+/* For the scrolling results and fixtures widget */
+.marquee_text {
+	background-color:#fff;
+}
+
+/* Hides players on the averages table who don't meet Shipton requirements*/
+.shipton-hide {
+	display:none;	
+}
+
+/* Changes to remove cols if on tablet screen - portrait */
+@media (max-width: 800px) and (min-width: 600px) { 
+  	
+  	/* Just remove some of the form bars on the division table and averages */
+  	.form-5 {
+  		display:none;
+  	}
+
+	.widget_search .search-field {
+		width: 160px !important;
+	}
+
+}
+		
+/* Changes to remove cols if on a small screen - Phone*/
+@media screen and (max-width: 600px) {
+
+	/* Change the select boxes to make them more visible */
+	select {
+		height: 40px;
+		line-height:200%;
+		display:list-item;
+	}
+	/* Resize the search box on a mobile */
+	.widget_search .search-field {
+		width: 270px !important;
+	}
+	
+	/* Truncate the select boxes for small screens */
+	.teamtourno-list {
+		width: 180px;
+		overflow:hidden;
+	}
+	
+	/* Change the results page entry table */
+	.ftab-results tbody, .ftab-results thead {
+    	float:left;
+	}
+	.ftab-results td, .ftab-results th {
+    	display:block;
+	}
+	.ftab-results thead {
+		min-width: 120px;
+	}
+	
+	/* Hide division table cols For and Against when a small screen */
+	table.ftab-divtable .ftab-for, table.ftab-divtable .ftab-agst {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	/* Hide form column on division table */
+	table.ftab-divtable .ftab-form, table.stab-divtable .ftab-form  {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	/* Hide diff column on division table in the teams page */
+	table.stab-divtable .ftab-diff  {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	/* Hide player average table cols Won and Lost when a small screen */
+	table.ftab-paverages .ftab-won, table.ftab-paverages .ftab-lost, table.ftab-paverages .ftab-form {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	
+	/* Hide player breaks table cols Fixture when a small screen */
+	table.ftab-pbreaks .ftab-fixfull {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	/* Hide team fixtures table cols Weekno when a small screen */
+	table.ftab-teams .ftab-fixweek {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	/* Hide team player details table cols when a small screen */
+	table.ftab-players .ftab-hplayed, table.ftab-players .ftab-hwon, table.ftab-players .ftab-hlost, table.ftab-players .ftab-hperc {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	table.ftab-players .ftab-aplayed, table.ftab-players .ftab-awon, table.ftab-players .ftab-alost, table.ftab-players .ftab-aperc {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	table.ftab-players th.ftab-home, table.ftab-players th.ftab-away, table.ftab-players .ftab-form{
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	table.ftab-players .ftab-b147 {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	/* Hide team tourno details table cols when a small screen */
+	table.ftab-teamtourno .ftab-club {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	/* Hide playertourno details table cols when a small screen */
+	table.ftab-playertourno .ftab-club {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+
+	/* Hide stuff on the main player details page */
+	table.ftab-frames .ftab-home, table.ftab-frames .ftab-hplayed, table.ftab-frames .ftab-hwon, table.ftab-frames .ftab-hlost, table.ftab-frames .ftab-hperc {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	table.ftab-frames .ftab-away, table.ftab-frames .ftab-aplayed, table.ftab-frames .ftab-awon, table.ftab-frames .ftab-alost, table.ftab-frames .ftab-aperc {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;    
+	}
+	
+	table.ftab-breaks .ftab-hbreak, table.ftab-breaks .ftab-b147  {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse; 
+	}
+	
+	table.ftab-matches .ftab-weekno, table.ftab-matches .ftab-team, table.ftab-matches .ftab-hbreak, table.ftab-matches .ftab-abreak  {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse; 
+	}	
+	/* Hide stuff on the player rankings page */
+	
+	table.ftab-pranking .ftab-lpts, table.ftab-pranking .ftab-cpts, table.ftab-pranking .ftab-bpts {
+		display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse; 
+	}
+	
+} /* end of media */
+
+/* Generic label formatting for labels and others */
+label {
+    float: left;
+	width: 20%;
+    text-align: left;
+    padding-right: 10px;
+    vertical-align:middle;
+}
+
+thead {
+	background-color:#ac0000;
+	color:#fff;
+}
+
+/* Text at the top of admin or other pages telling user info */
+.instruction_text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Specifically above tables where it says click to show hidden rows */
+.clickable-text {
+	float:right;
+	background-color:#ac0000;
+	color: #FFF;
+	font-weight: bold;
+	padding: 0 5px 0 5px;
+	text-transform:uppercase;
+}
+
+/* These are for the results admin page */
+#errortext {
+	background-color:#f9f9f9;
+	border: solid;
+	border-width:1px;
+}
+
+#savehidden {
+	width: 500px;
+}
+
+/* Sets the background on the players tables by season */
+.seas-wrapper1 h4, .seas-wrapper0 h4  {
+	background-color:#083901;
+	color:#FFF;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.seas-wrapper1 {
+	background-color:#efffed;
+}	
+
+
+/* Set the hidden rows on averages and breaks table to hidden to start with */
+.hiddenrow-averages, .hiddenrow-breaks {
+	display:none;
+}
+
+.es_textbox_button input[type="button"] {
+	float: left;
+}
+/* ajaxCrud additions
+*/
+
+.report, .alertgood {
+	text-align: left;
+	border-top: 1px solid #9c9;
+	border-bottom: 1px solid #9c9;
+	padding: 5px 5px 5px 30px;
+	font-size: 11px;
+	margin: 0 20px 15px 20px;
+	color: #060;
+	background: url("checkicon.gif") #e2f9e3 left no-repeat;
+}
+
+.error, .alertbad {
+	text-align: left;
+	font-weight: bold;
+	border-top: 1px solid #c99;
+	border-bottom: 1px solid #c99;
+	padding: 5px 5px 5px 27px;
+	font-size: 11px;
+	margin: 0 20px 15px 20px;
+	background: url("badicon.gif") #c00 left no-repeat;
+	color: #fff;
+}
+
+/* Makes the table headers that have clickable links visible */
+.ajaxCRUD a {
+	color:#fff;
+}
+  
+/* Removes the menu from a page with the ID specified 
+
+body.page-id-800 div.menu-main-container {
+    display: none;
+}
+*/
+
+/* For the weekly results pagination widget */
+
+.wkbtninline {
+    
+    display:inline-block;
+    justify-content: left;
+    align-items: left;
+}
+
+.paginatebtn {
+	padding: 10px !important;
+}
+
+.fixrows {
+	display: none;	
+}
